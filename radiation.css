@@ -1,0 +1,77 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("images/back/radiation.back.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all .2s linear;
+    font-size: 20px;
+    font-style: italic;
+}
+
+nav ul li a:hover {
+    background: #23591d;
+}
+
+.conteiner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.text {
+    padding: 20px;
+    background: #D3D3D3;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.text p {
+    text-align: justify;
+    padding: 10px;
+    font-family: Comic sans MS;
+}
+
+.text h1 {
+    text-align: center;
+    font-family: Arial black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
